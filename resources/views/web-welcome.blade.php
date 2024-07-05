@@ -50,7 +50,7 @@
 
             <section class="mt-8 grid grid-cols-2 gap-4 px-4 border rounded-md">
                 <div class="p-8">
-                    <h2 class="text-2xl font-bold text-center">Our Services</h2>
+                    <h2 class="text-xl lg:text-2xl font-bold text-center">Our Services</h2>
                     <ul class="mt-4 text-pretty mx-auto w-52">
                         <li class="flex items>center ">
                             <x-heroicon-s-check class="h-6 text-green-700" />
@@ -79,7 +79,7 @@
                     </ul>
                 </div>
                 <div class="p-8">
-                    <h2 class="text-2xl font-bold text-center">Our Work</h2>
+                    <h2 class="text-xl lg:text-2xl font-bold text-center">Our Work</h2>
                     <ul class="mt-4 text-pretty mx-auto w-48">
                         <li class="flex items>center">
                             <x-heroicon-s-check class="h-6 text-green-700" />
@@ -91,7 +91,7 @@
                         </li>
                         <li class="flex items>center">
                             <x-heroicon-s-check class="h-6 text-green-700" />
-                            <a href="#" class="ml-2">Website</a>
+                            <a href="#" class="ml-2">French Kilt</a>
                         </li>
                         <li class="flex items>center">
                             <x-heroicon-s-check class="h-6 text-green-700" />
@@ -128,7 +128,7 @@
                         Think about us
                     </h2>
                     <p
-                        class="block antialiased font-sans text-xl font-normal leading-loose text-inherit max-w-3xl !text-gray-800 mb-10 lg:mb-20 text-balance">
+                        class="block antialiased font-sans text-lg lg:text-xl font-normal leading-loose text-inherit max-w-3xl !text-gray-800 mb-10 lg:mb-20 text-balance">
                         Find out what people have been saying about us... 
                     </p>
 
