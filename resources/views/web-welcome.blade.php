@@ -51,7 +51,7 @@
             <section class="mt-8 grid grid-cols-2 gap-4 px-4 border rounded-md">
                 <div class="p-8">
                     <h2 class="text-2xl font-bold text-center">Our Services</h2>
-                    <ul class="mt-4 text-pretty mx-auto w-48">
+                    <ul class="mt-4 text-pretty mx-auto w-52">
                         <li class="flex items>center ">
                             <x-heroicon-s-check class="h-6 text-green-700" />
                             <span class="ml-2">Web Development</span>
