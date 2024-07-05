@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
+Route::get('/welcome-to-rsc-media', function () {
+    return view('web-welcome');
+})->name('landing-page');
+
 Route::get('/services', function(){
     return view('services');
 });
