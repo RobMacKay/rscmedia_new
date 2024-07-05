@@ -21,7 +21,7 @@
 
             <section class="text-center py-8">
 
-                <span id="type" class="text-3xl font-semibold text-pretty"></span>
+                <span id="type" class="text-3xl font-semibold text-balance"></span>
 
                 @verbatim
                 <script>
@@ -48,11 +48,11 @@
                 <p class="text-center mt-4 text-balance">We are a web development and support agency based in Aberdeenshire, Scotland. We offer a range of services to help you get the most out of your online presence.</p>
             </section>
 
-            <section class="mt-8 grid grid-cols-2 gap-4 px-4">
-                <div>
-                    <h2 class="text-2xl font-bold">Our Services</h2>
-                    <ul class="mt-4 text-pretty">
-                        <li class="flex items>center">
+            <section class="mt-8 grid grid-cols-2 gap-4 px-4 border rounded-md">
+                <div class="p-8">
+                    <h2 class="text-2xl font-bold text-center">Our Services</h2>
+                    <ul class="mt-4 text-pretty mx-auto w-48">
+                        <li class="flex items>center ">
                             <x-heroicon-s-check class="h-6 text-green-700" />
                             <span class="ml-2">Web Development</span>
                         </li>
@@ -78,9 +78,9 @@
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <h2 class="text-2xl font-bold">Our Work</h2>
-                    <ul class="mt-4">
+                <div class="p-8">
+                    <h2 class="text-2xl font-bold text-center">Our Work</h2>
+                    <ul class="mt-4 text-pretty mx-auto w-48">
                         <li class="flex items>center">
                             <x-heroicon-s-check class="h-6 text-green-700" />
                             <a href="#" class="ml-2">Riccione</a>
@@ -128,7 +128,7 @@
                         Think about us
                     </h2>
                     <p
-                        class="block antialiased font-sans text-xl font-normal leading-loose text-inherit max-w-3xl !text-gray-800 mb-10 lg:mb-20">
+                        class="block antialiased font-sans text-xl font-normal leading-loose text-inherit max-w-3xl !text-gray-800 mb-10 lg:mb-20 text-balance">
                         Find out what people have been saying about us... 
                     </p>
 
