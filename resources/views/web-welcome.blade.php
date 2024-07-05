@@ -19,8 +19,31 @@
                 </div>
             </section>
 
+            <section class="text-center py-8">
+
+                <span id="type" class="text-3xl font-semibold text-pretty"></span>
+
+                @verbatim
+                <script>
+                    var i = 0;
+                    var txt = 'Hello There, We probably just met...';
+                    var speed = 50;
+                    
+                    function typeWriter() {
+                      if (i < txt.length) {
+                        document.getElementById("type").innerHTML += txt.charAt(i);
+                        i++;
+                        setTimeout(typeWriter, speed);
+                      }
+                    }
+                    onload = typeWriter();
+                </script>
+                @endverbatim
+                
+
+            </section>
+
             <section class="px-4 bg-primary-500 text-white py-6 pt-8 mt-8 relative">
-                <span class="absolute -top-6 left-0 text-primary-500 text-xl font-semibold">Hello There, We probably just met...</span>
                 <h1 class="text-4xl font-bold text-center">RSC Media</h1>
                 <p class="text-center mt-4 text-balance">We are a web development and support agency based in Aberdeenshire, Scotland. We offer a range of services to help you get the most out of your online presence.</p>
             </section>
