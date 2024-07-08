@@ -60,7 +60,7 @@
 
             </section>
 
-            <section class="px-4 bg-primary-500 text-white py-6 pt-8 mt-8 relative">
+            <section class="px-4 bg-primary-500 text-white py-6 mt-8 relative">
                 <h1 class="text-4xl font-bold text-center">RSC Media</h1>
                 <p class="text-center mt-4 text-balance">We are a web development and support agency based in Aberdeenshire, Scotland. We offer a range of services to help you get the most out of your online presence.</p>
             </section>
