@@ -22,11 +22,28 @@
             <section class="text-center py-8">
 
                 <span id="type" class="text-3xl font-semibold text-balance"></span>
+                @php
+                    $txt = "Welcome to RSC Media - Here is a quick rundown of what we do...";
 
-                @verbatim
+                    if(isset($_GET['m'])) {
+                        if($_GET['m'] === 'a') {
+                            $txt = 'Hello There, We probably just met, here is a quick rundown of what we do...';
+                        }
+
+                        if($_GET['m'] === 'b') {
+                            $txt = 'Thanks for checking us out! Here is a little about what we can do for you...';
+                        }
+
+                        if($_GET['m'] === 'c') {
+                            $txt = 'You found me! Curiosity is good... This is what we can do for you...';
+                        }
+                    }
+
+                @endphp
+
                 <script>
                     var i = 0;
-                    var txt = 'Hello There, We probably just met...';
+                    var txt = '{{$txt}}';
                     var speed = 50;
                     
                     function typeWriter() {
@@ -38,7 +55,7 @@
                     }
                     onload = typeWriter();
                 </script>
-                @endverbatim
+
                 
 
             </section>
@@ -49,7 +66,7 @@
             </section>
 
             <section class="mt-8 grid grid-cols-2 gap-4 px-4 border rounded-md">
-                <div class="p-8">
+                <div class="py-4">
                     <h2 class="text-xl lg:text-2xl font-bold text-center">Our Services</h2>
                     <ul class="mt-4 text-pretty mx-auto w-52">
                         <li class="flex items>center ">
@@ -78,24 +95,26 @@
                         </li>
                     </ul>
                 </div>
-                <div class="p-8">
+                <div class="py-4">
                     <h2 class="text-xl lg:text-2xl font-bold text-center">Our Work</h2>
-                    <ul class="mt-4 text-pretty mx-auto w-48">
-                        <li class="flex items>center">
-                            <x-heroicon-s-check class="h-6 text-green-700" />
-                            <a href="#" class="ml-2">Riccione</a>
+                    <ul class="mt-4 text-pretty mx-auto w-56 space-y-1">
+                        <li class="flex flex-col justify>center border rounded-md p-4 gap-2">
+                            <div class="flex items>center gap-2">
+                                <x-heroicon-s-star class="h-6 text-yellow-700" />
+                                <a href="https://www.riccione.com/" class="ml-2">Riccione</a>
+                            </div>
+                            <div class="text-xs text-gray-700 text-balance">
+                                Recruitement website rebuild in React using WordPress as a headless CMS.
+                            </div>
                         </li>
-                        <li class="flex items>center">
-                            <x-heroicon-s-check class="h-6 text-green-700" />
-                            <a href="#" class="ml-2">Casinomeister</a>
-                        </li>
-                        <li class="flex items>center">
-                            <x-heroicon-s-check class="h-6 text-green-700" />
-                            <a href="#" class="ml-2">French Kilt</a>
-                        </li>
-                        <li class="flex items>center">
-                            <x-heroicon-s-check class="h-6 text-green-700" />
-                            <a href="#" class="ml-2">Website</a>
+                        <li class="flex flex-col justify>center border rounded-md p-4 gap-2">
+                            <div class="flex items>center gap-2">
+                                <x-heroicon-s-star class="h-6 text-yellow-700" />
+                                <a href="https://www.riccione.com/" class="ml-2">Casinomeister</a>
+                            </div>
+                            <div class="text-xs text-gray-700 text-balance">
+                                Backend development for a large online casino review website.
+                            </div>
                         </li>
                     </ul>
                 </div>
