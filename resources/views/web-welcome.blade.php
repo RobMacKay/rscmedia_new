@@ -34,7 +34,7 @@
                             $txt = 'Thanks for checking us out! Here is a little about what we can do for you...';
                         }
 
-                        if($_GET['m'] === 'c') {
+                        if($_GET['m'] === 'd') {
                             $txt = 'You found me! Curiosity is good... This is what we can do for you...';
                         }
                     }
