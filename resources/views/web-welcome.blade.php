@@ -138,7 +138,47 @@
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                             <div
                                 class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
-                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjUfE5-aALQkewNntD5YUa_tQas10cPvOju3iM95STGNBxpBtcXN=s36-c-rp-mo-br100" alt="Arnaud's Language Kitchen"
+                                <img src="https://media.licdn.com/dms/image/C5103AQHQqlcwhWU5BA/profile-displayphoto-shrink_200_200/0/1516943967156?e=1726099200&v=beta&t=vmuiEkCbiZdr591Zt0n6unwOy6Yf5EtnrOowaXYMzyg" alt="Yvette Riccione - Riccione Recruitment"
+                                    class="inline-block relative object-cover object-center !rounded-full w-[58px] h-[58px]" />
+                                <div>
+                                    <div class="flex items-center gap-2">
+                                        <h6
+                                            class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900">
+                                            Yvette Riccione
+                                        </h6>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                            aria-hidden="true" class="h-4 w-4 text-blue-500">
+                                            <path fill-rule="evenodd"
+                                                d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-6 px-4 flex-grow">
+                                <p
+                                    class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-800">
+                                    Rob embodies excellence as a software developer, demonstrating exceptional skills in WordPress and a deep understanding of the backend requirements necessary to ensure the success of a website. His ability to skillfully tackle challenges and collaborate effectively underscores his commitment to comprehending and meeting client needs.
+                                </p>
+                            </div>
+                            <div class="p-6 flex justify-between items-center gap-2">
+                                <div class="flex items-center gap-2">
+                                    <h6
+                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit !text-gray-500">
+                                        See on
+                                    </h6>
+                                    <x-ri-linkedin-fill class="h-5 w-5 text-blue-500" />
+                                </div>
+                                <p
+                                    class="block antialiased font-sans text-sm leading-normal text-inherit font-medium !text-gray-500">
+                                    July 8th, 2024
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
+                            <div
+                                class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
+                                <img src="https://media.licdn.com/dms/image/D4E35AQE5r1IcQA1oiw/profile-framedphoto-shrink_200_200/0/1710186820123?e=1721041200&v=beta&t=1iuDN8oXZJbipzLFBBu7MI3utaxPpBx58BGYtnRG9zc" alt="Arnaud's Language Kitchen"
                                     class="inline-block relative object-cover object-center !rounded-full w-[58px] h-[58px]" />
                                 <div>
                                     <div class="flex items-center gap-2">
