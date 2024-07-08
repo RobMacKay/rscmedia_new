@@ -19,7 +19,7 @@
                 </div>
             </section>
 
-            <section class="text-center py-8">
+            <section class="text-center py-8 px-4">
 
                 <span id="type" class="text-3xl font-semibold text-balance"></span>
                 @php
