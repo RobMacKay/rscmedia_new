@@ -110,7 +110,7 @@
                         <li class="flex flex-col justify>center border rounded-md p-4 gap-2">
                             <div class="flex items>center gap-2">
                                 <x-heroicon-s-star class="h-6 text-yellow-700" />
-                                <a href="https://www.riccione.com/" class="ml-2">Casinomeister</a>
+                                <a href="https://casinomeister.com/" class="ml-2">Casinomeister</a>
                             </div>
                             <div class="text-xs text-gray-700 text-balance">
                                 Backend development for a large online casino review website.
