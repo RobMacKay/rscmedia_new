@@ -65,59 +65,43 @@
                 <p class="text-center mt-4 text-balance">We are a web development and support agency based in Aberdeenshire, Scotland. We offer a range of services to help you get the most out of your online presence.</p>
             </section>
 
-            <section class="mt-8 grid grid-cols-2 gap-4 px-4 border rounded-md">
+            <section class="mt-8 flex justify-center items-center px-4 border rounded-md">
                 <div class="py-4">
-                    <h2 class="text-xl lg:text-2xl font-bold text-center">Our Services</h2>
-                    <ul class="mt-4 text-pretty mx-auto w-52">
-                        <li class="flex items>center ">
-                            <x-heroicon-s-check class="h-6 text-green-700" />
-                            <span class="ml-2">Web Development</span>
+                    <h2 class="text-2xl font-bold text-center">Our Services</h2>
+                    <ul class="mt-4 text-pretty text-xl space-y-3">
+                        <li class="flex items-center gap-2 justify-center">
+                            <x-ri-arrow-right-double-fill class="h-6 text-green-700"/>
+                            <span>Web Development</span>
+                            <x-ri-arrow-left-double-fill class="h-6 text-green-700"/>
                         </li>
-                        <li class="flex items>center">
-                            <x-heroicon-s-check class="h-6 text-green-700" />
-                            <span class="ml-2">Web Applications</span>
+                        <li class="flex items-center gap-2 justify-center">
+                            <x-ri-arrow-right-double-fill class="h-6 text-green-700"/>
+                            <span>Web Applications</span>
+                            <x-ri-arrow-left-double-fill class="h-6 text-green-700"/>
                         </li>
-                        <li class="flex items>center">
-                            <x-heroicon-s-check class="h-6 text-green-700" />
-                            <span class="ml-2">Web Hosting</span>
+                        <li class="flex items-center gap-2 justify-center">
+                            <x-ri-arrow-right-double-fill class="h-6 text-green-700"/>
+                            <span>Web Hosting</span>
+                            <x-ri-arrow-left-double-fill class="h-6 text-green-700"/>
                         </li>
-                        <li class="flex items>center">
-                            <x-heroicon-s-check class="h-6 text-green-700" />
-                            <span class="ml-2">Consultancy</span>
+                        <li class="flex items-center gap-2 justify-center">
+                            <x-ri-arrow-right-double-fill class="h-6 text-green-700"/>
+                            <span>Consultancy</span>
+                            <x-ri-arrow-left-double-fill class="h-6 text-green-700"/>
                         </li>
-                        <li class="flex items>center">
-                            <x-heroicon-s-check class="h-6 text-green-700" />
-                            <span class="ml-2">Copywriting</span>  
+                        <li class="flex items-center gap-2 justify-center">
+                            <x-ri-arrow-right-double-fill class="h-6 text-green-700"/>
+                            <span>Copywriting</span>  
+                            <x-ri-arrow-left-double-fill class="h-6 text-green-700"/>
                         </li>
-                        <li class="flex items>center">
-                            <x-heroicon-s-check class="h-6 text-green-700" />
-                            <span class="ml-2">SEO</span>  
+                        <li class="flex items-center gap-2 justify-center">
+                            <x-ri-arrow-right-double-fill class="h-6 text-green-700"/>
+                            <span>SEO</span> 
+                            <x-ri-arrow-left-double-fill class="h-6 text-green-700"/>
                         </li>
                     </ul>
                 </div>
-                <div class="py-4">
-                    <h2 class="text-xl lg:text-2xl font-bold text-center">Our Work</h2>
-                    <ul class="mt-4 text-pretty mx-auto w-56 space-y-1">
-                        <li class="flex flex-col justify>center border rounded-md p-4 gap-2">
-                            <div class="flex items>center gap-2">
-                                <x-heroicon-s-star class="h-6 text-yellow-700" />
-                                <a href="https://www.riccione.com/" class="ml-2">Riccione</a>
-                            </div>
-                            <div class="text-xs text-gray-700 text-balance">
-                                Recruitement website rebuild in React using WordPress as a headless CMS.
-                            </div>
-                        </li>
-                        <li class="flex flex-col justify>center border rounded-md p-4 gap-2">
-                            <div class="flex items>center gap-2">
-                                <x-heroicon-s-star class="h-6 text-yellow-700" />
-                                <a href="https://casinomeister.com/" class="ml-2">Casinomeister</a>
-                            </div>
-                            <div class="text-xs text-gray-700 text-balance">
-                                Backend development for a large online casino review website.
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                
             </section>
 
             <section class="px-4 py-6 my-4">
