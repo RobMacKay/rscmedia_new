@@ -91,11 +91,6 @@
                         </li>
                         <li class="flex items-center gap-2 justify-center">
                             <x-ri-arrow-right-double-fill class="h-6 text-green-700"/>
-                            <span>Copywriting</span>  
-                            <x-ri-arrow-left-double-fill class="h-6 text-green-700"/>
-                        </li>
-                        <li class="flex items-center gap-2 justify-center">
-                            <x-ri-arrow-right-double-fill class="h-6 text-green-700"/>
                             <span>SEO</span> 
                             <x-ri-arrow-left-double-fill class="h-6 text-green-700"/>
                         </li>
