@@ -40,6 +40,15 @@
         <!-- Styles -->
         @livewireStyles
     </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H8FM5GTR75"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H8FM5GTR75');
+    </script>
     <body>
         <div class="antialiased">
             {{ $slot }}
