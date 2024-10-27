@@ -21,6 +21,7 @@
                     <a href="https://wa.me/447874413058">
                         <img src="/assets/images/WhatsAppButtonGreenLarge.svg" alt="Text Us On WhatsApp" class="h-10 mt-4"/>
                     </a>
+                    <a href="https://app.squareup.com/appointments/book/sq5vhyoj4c8a3r/LWSJTFAG74PE3/start" class="inline-block mt-4 select-none rounded-lg bg-green-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-green-500/20 transition-all hover:shadow-lg hover:shadow-green-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">Book Appointment</a>
                 </div>
             </div>
         </div>
