@@ -22,6 +22,10 @@
                     About
                 </a>
             </li>
+            <li>
+                <a href="https://client.rscmedia.co.uk/client/login"
+                    class="flex items-center gap-2 font-sans text-base font-medium leading-relaxed text-gray-900 antialiased">Client Login</a>
+            </li>
         </ul>
         <button @click="show = ! show"
             class="relative ml-auto inline-block h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-primary/10 active:bg-primary/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden"
