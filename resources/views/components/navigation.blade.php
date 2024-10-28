@@ -51,6 +51,11 @@
                     <a href="/about"
                         class="flex items-center gap-2 font-sans text-base font-medium leading-relaxed text-gray-900 antialiased">About</a>
                 </li>
+                <li>
+                    <a href="https://client.rscmedia.co.uk/client/login"
+                        class="flex items-center gap-2 font-sans text-base font-medium leading-relaxed text-gray-900 antialiased">Client Login</a>
+                </li>
+                
             </ul>
         </div>
     </div>
