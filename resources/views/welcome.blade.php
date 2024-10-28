@@ -3,7 +3,7 @@
     <x-navigation />
 
     <header class="bg-gray-100 p-8 pt-0 relative overflow-hidden">
-        <video class="absolute top-0 left-0 object-cover opacity-50 object-center min-h-full" autoplay loop poster="">
+        <video class="absolute top-0 left-0 object-cover opacity-50 object-center min-h-full" autoplay loop muted playsinline preload="auto" poster="">
             <source src="assets/images/video-team.mp4" />
         </video>
         <a href="https://www.pexels.com/video/people-in-a-meeting-3255275/" class="absolute bottom-2 right-2 text-gray-700 text-xs">Video by fauxels</a></span>
