@@ -187,7 +187,7 @@
                 choosing our services, you can:
             </p>
             <a href="mailto:info@rscmedia.co.uk"
-                class="select-none rounded-lg bg-gradient-to-tr from-primary-500 to-primary-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                class="select-none rounded-lg bg-gradient-to-tr bg-accent1 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 data-ripple-light="true">
                 contact us
             </a>

@@ -136,7 +136,7 @@
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                             <div
                                 class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
-                                <img src="https://media.licdn.com/dms/image/C5103AQHQqlcwhWU5BA/profile-displayphoto-shrink_200_200/0/1516943967156?e=1726099200&v=beta&t=vmuiEkCbiZdr591Zt0n6unwOy6Yf5EtnrOowaXYMzyg" alt="Yvette Riccione - Riccione Recruitment"
+                                <img src="https://media.licdn.com/dms/image/v2/C5103AQHQqlcwhWU5BA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516943967124?e=1744243200&v=beta&t=Am_A5l2HFQxE6TZDKiTnLFGetNf462hVH54F5ajfKbY" alt="Yvette Riccione - Riccione Recruitment"
                                     class="inline-block relative object-cover object-center !rounded-full w-[58px] h-[58px]" />
                                 <div>
                                     <div class="flex items-center gap-2">
@@ -176,7 +176,7 @@
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                             <div
                                 class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
-                                <img src="https://media.licdn.com/dms/image/D4E35AQE5r1IcQA1oiw/profile-framedphoto-shrink_200_200/0/1710186820123?e=1721041200&v=beta&t=1iuDN8oXZJbipzLFBBu7MI3utaxPpBx58BGYtnRG9zc" alt="Arnaud's Language Kitchen"
+                                <img src="https://media.licdn.com/dms/image/v2/C4D03AQEZbI7_c-mhcA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1550259305021?e=1744243200&v=beta&t=ZORhW1P3-YBUscE-cq7f3ydZZwnEo6PO_Qp6civLm50" alt="Arnaud's Language Kitchen"
                                     class="inline-block relative object-cover object-center !rounded-full w-[58px] h-[58px]" />
                                 <div>
                                     <div class="flex items-center gap-2">
@@ -216,7 +216,7 @@
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                             <div
                                 class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
-                                <img src="https://media.licdn.com/dms/image/D4D03AQHbMnezYhVq7g/profile-displayphoto-shrink_200_200/0/1677707478919?e=1725494400&v=beta&t=UPo7D6GDBtGmyGvKYlnYj_FhCJXYtgD91MjQpv3Wyos" alt="Esra'a Al Shafei"
+                                <img src="https://media.licdn.com/dms/image/v2/D4D03AQHbMnezYhVq7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1677707478919?e=1744243200&v=beta&t=kMXuZhCHJTpfsDzuUTsbYtAAPXhk5sKS6hTJj_dnHb4" alt="Esra'a Al Shafei"
                                     class="inline-block relative object-cover object-center !rounded-full w-[58px] h-[58px]" />
                                 <div>
                                     <div class="flex items-center gap-2">
@@ -257,7 +257,7 @@
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                             <div
                                 class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
-                                <img src="https://media.licdn.com/dms/image/C4D03AQF8_obkCjaNUA/profile-displayphoto-shrink_200_200/0/1616440902884?e=1725494400&v=beta&t=Hmoav_VPzE2gptLrtL-3TgRDONqwsXgzForz2PRHmBQ" alt="Andrea La Valleur-Purvis"
+                                <img src="https://media.licdn.com/dms/image/v2/C4D03AQF8_obkCjaNUA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1616440902884?e=1744243200&v=beta&t=cyCEFC_kYOg5vCQhCy7BLm27k7IxGwZpv4qsoPH-sKI" alt="Andrea La Valleur-Purvis"
                                     class="inline-block relative object-cover object-center !rounded-full w-[58px] h-[58px]" />
                                 <div>
                                     <div class="flex items-center gap-2">
