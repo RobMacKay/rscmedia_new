@@ -22,6 +22,13 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+        <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
+        <link rel="shortcut icon" href="/favicons/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="RSC Media" />
+        <link rel="manifest" href="/favicons/site.webmanifest" />
+
         <!-- OpenGraph meta tags -->
         <meta property="og:title" content="RSC Media - Website Development & Support">
         <meta property="og:description" content="Discover the power of RSC Media for comprehensive web solutions. From development to hosting, consultancy, and copywriting, we've got you covered. Elevate your digital presence today!">
