@@ -3,10 +3,10 @@
     <x-navigation />
 
     <section class="p-8">
-        <div class="mx-auto max-w-screen-md">
+        <div class="mx-auto max-w-5xl">
             <img src="assets/images/elgin-cathedral.jpg" alt="team work"
                 class="mb-4 h-[28rem] w-full rounded-xl object-cover" />
-            <p class="block font-sans text-sm font-normal leading-normal text-inherit !text-gray-500 antialiased">
+            <p class="block font-sans text-sm font-normal leading-normal text-inherit text-gray-500! antialiased">
                 Photo by <a
                     href="https://unsplash.com/@gilbitron?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gilbert
                     Pellegrom</a> on <a

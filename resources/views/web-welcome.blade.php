@@ -2,18 +2,18 @@
 
     <x-navigation />
 
-        <div class="mx-auto max-w-screen-md py-10">
+        <div class="mx-auto max-w-2xl py-10">
 
             <section class="px-4 sticky -top-0.5 z-30 mb-8">
-                <div class="rounded-md border flex justify-around py-2 shadow-md bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200">
-                    <span class="rounded-md border-x border-t absolute -top-6 left-0 px-4 font-semibold">Contact Us Now</span>
-                    <a href="tel:07846139387" class="block p-4 bg-gradient-to-bl from-red-100 to-gray-50 rounded-full border-2 border-red-700" data-ripple-dark="true">
+                <div class="rounded-md border border-gray-500 flex justify-around py-2 shadow-md bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200">
+                    <span class="rounded-md border-x border-t border-gray-500 absolute -top-6 left-0 px-4 font-semibold">Contact Us Now</span>
+                    <a href="tel:07846139387" class="block p-4 bg-linear-to-bl from-red-100 to-gray-50 rounded-full border-2 border-red-700" data-ripple-dark="true">
                         <x-heroicon-s-phone class="h-10 text-red-700"/>
                     </a>
-                    <a href="https://wa.me/447874413058" class="block p-4 bg-gradient-to-bl from-green-100 to-gray-50 rounded-full border-2 border-green-700" data-ripple-dark="true">
+                    <a href="https://wa.me/447874413058" class="block p-4 bg-linear-to-bl from-green-100 to-gray-50 rounded-full border-2 border-green-700" data-ripple-dark="true">
                         <x-ri-whatsapp-fill class="h-10 text-green-700" />
                     </a>
-                    <a href="mailto:info@rscmedia.co.uk" class="block p-4 bg-gradient-to-bl from-blue-100 to-gray-50 rounded-full border-2 border-blue-700" data-ripple-dark="true">
+                    <a href="mailto:info@rscmedia.co.uk" class="block p-4 bg-linear-to-bl from-blue-100 to-gray-50 rounded-full border-2 border-blue-700" data-ripple-dark="true">
                         <x-heroicon-s-envelope  class="h-10 text-blue-700"/>
                     </a>
                 </div>
@@ -103,7 +103,7 @@
                 <div ckass="px-4">
                     <h2 class="text-2xl font-bold px-4 my-8">Our Specialities</h2>
                     <div class="flex justify-center items-center flex-wrap gap-4">
-                        <x-si-laravel class="text-white bg-gradient-to-br from-primary-500 to-primary-300 h-20 p-2 border border-primary-100 rounded-md"/>
+                        <x-si-laravel class="text-white bg-linear-to-br from-primary-500 to-primary-300 h-20 p-2 border border-primary-100 rounded-md"/>
                         <x-si-wordpress class="text-white bg-primary-500 h-20 p-2 border rounded-md"/>
                         <x-si-php class="text-white bg-primary-500 h-20 p-2 border rounded-md"/>
                         <x-si-javascript class="text-white bg-primary-500 h-20 p-2 border rounded-md" />
@@ -118,15 +118,15 @@
 
             <section class="py-10 px-4">
                 <div class="container mx-auto">
-                    <p class="block antialiased font-sans leading-relaxed text-gray-900 mb-4 !text-base font-bold">
+                    <p class="block antialiased font-sans leading-relaxed text-gray-900 mb-4 text-base! font-bold">
                         Testimonials
                     </p>
                     <h2
-                        class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-blue-gray-900 mb-4 !text-2xl lg:!text-4xl">
+                        class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-blue-gray-900 mb-4 text-2xl! lg:text-4xl!">
                         Think about us
                     </h2>
                     <p
-                        class="block antialiased font-sans text-lg lg:text-xl font-normal leading-loose text-inherit max-w-3xl !text-gray-800 mb-10 lg:mb-20 text-balance">
+                        class="block antialiased font-sans text-lg lg:text-xl font-normal leading-loose text-inherit max-w-3xl text-gray-800! mb-10 lg:mb-20 text-balance">
                         Find out what people have been saying about us... 
                     </p>
 
@@ -135,9 +135,9 @@
                     <div class="grid gap-8 grid-cols-1 lg:grid-cols-2">
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                             <div
-                                class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
+                                class="relative bg-clip-border mt-4! mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
                                 <img src="https://media.licdn.com/dms/image/v2/C5103AQHQqlcwhWU5BA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516943967124?e=1744243200&v=beta&t=Am_A5l2HFQxE6TZDKiTnLFGetNf462hVH54F5ajfKbY" alt="Yvette Riccione - Riccione Recruitment"
-                                    class="inline-block relative object-cover object-center !rounded-full w-[58px] h-[58px]" />
+                                    class="inline-block relative object-cover object-center rounded-full! w-[58px] h-[58px]" />
                                 <div>
                                     <div class="flex items-center gap-2">
                                         <h6
@@ -153,31 +153,31 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="py-6 px-4 flex-grow">
+                            <div class="py-6 px-4 grow">
                                 <p
-                                    class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-800">
+                                    class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal text-gray-800!">
                                     Rob embodies excellence as a software developer, demonstrating exceptional skills in WordPress and a deep understanding of the backend requirements necessary to ensure the success of a website. His ability to skillfully tackle challenges and collaborate effectively underscores his commitment to comprehending and meeting client needs.
                                 </p>
                             </div>
                             <div class="p-6 flex justify-between items-center gap-2">
                                 <div class="flex items-center gap-2">
                                     <h6
-                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit !text-gray-500">
+                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit text-gray-500!">
                                         See on
                                     </h6>
                                     <x-ri-linkedin-fill class="h-5 w-5 text-blue-500" />
                                 </div>
                                 <p
-                                    class="block antialiased font-sans text-sm leading-normal text-inherit font-medium !text-gray-500">
+                                    class="block antialiased font-sans text-sm leading-normal text-inherit font-medium text-gray-500!">
                                     July 8th, 2024
                                 </p>
                             </div>
                         </div>
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                             <div
-                                class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
+                                class="relative bg-clip-border mt-4! mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
                                 <img src="https://media.licdn.com/dms/image/v2/C4D03AQEZbI7_c-mhcA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1550259305021?e=1744243200&v=beta&t=ZORhW1P3-YBUscE-cq7f3ydZZwnEo6PO_Qp6civLm50" alt="Arnaud's Language Kitchen"
-                                    class="inline-block relative object-cover object-center !rounded-full w-[58px] h-[58px]" />
+                                    class="inline-block relative object-cover object-center rounded-full! w-[58px] h-[58px]" />
                                 <div>
                                     <div class="flex items-center gap-2">
                                         <h6
@@ -193,31 +193,31 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="py-6 px-4 flex-grow">
+                            <div class="py-6 px-4 grow">
                                 <p
-                                    class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-800">
+                                    class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal text-gray-800!">
                                     Rob is always reliable, knowledgeable and happy to help. He's a great asset to any company, big or small.
                                 </p>
                             </div>
                             <div class="p-6 flex justify-between items-center gap-2">
                                 <div class="flex items-center gap-2">
                                     <h6
-                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit !text-gray-500">
+                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit text-gray-500!">
                                         See on
                                     </h6>
                                     <x-ri-google-fill class="h-5 w-5 text-red-500" />
                                 </div>
                                 <p
-                                    class="block antialiased font-sans text-sm leading-normal text-inherit font-medium !text-gray-500">
+                                    class="block antialiased font-sans text-sm leading-normal text-inherit font-medium text-gray-500!">
                                     October 19th, 2023
                                 </p>
                             </div>
                         </div>
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                             <div
-                                class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
+                                class="relative bg-clip-border mt-4! mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
                                 <img src="https://media.licdn.com/dms/image/v2/D4D03AQHbMnezYhVq7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1677707478919?e=1744243200&v=beta&t=kMXuZhCHJTpfsDzuUTsbYtAAPXhk5sKS6hTJj_dnHb4" alt="Esra'a Al Shafei"
-                                    class="inline-block relative object-cover object-center !rounded-full w-[58px] h-[58px]" />
+                                    class="inline-block relative object-cover object-center rounded-full! w-[58px] h-[58px]" />
                                 <div>
                                     <div class="flex items-center gap-2">
                                         <h6
@@ -233,22 +233,22 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="py-6 px-4 flex-grow">
+                            <div class="py-6 px-4 grow">
                                 <p
-                                    class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-800">
+                                    class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal text-gray-800!">
                                     Rob is great to work with. He's talented, creative, and most importantly, very responsible and responsive. Not only did he create a lovely design but it was fully optimized as well, a rare feature from most designers. We'll be using his services again for sure, and if you care about quality and user experience, then so should you!
                                 </p>
                             </div>
                             <div class="p-6 flex justify-between items-center gap-2">
                                 <div class="flex items-center gap-2">
                                     <h6
-                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit !text-gray-500">
+                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit text-gray-500!">
                                         See on
                                     </h6>
                                     <x-ri-linkedin-fill class="h-5 w-5 text-blue-500" />
                                 </div>
                                 <p
-                                    class="block antialiased font-sans text-sm leading-normal text-inherit font-medium !text-gray-500">
+                                    class="block antialiased font-sans text-sm leading-normal text-inherit font-medium text-gray-500!">
                                     October 19th, 2009
                                 </p>
                             </div>
@@ -256,9 +256,9 @@
                             
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                             <div
-                                class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
+                                class="relative bg-clip-border mt-4! mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">
                                 <img src="https://media.licdn.com/dms/image/v2/C4D03AQF8_obkCjaNUA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1616440902884?e=1744243200&v=beta&t=cyCEFC_kYOg5vCQhCy7BLm27k7IxGwZpv4qsoPH-sKI" alt="Andrea La Valleur-Purvis"
-                                    class="inline-block relative object-cover object-center !rounded-full w-[58px] h-[58px]" />
+                                    class="inline-block relative object-cover object-center rounded-full! w-[58px] h-[58px]" />
                                 <div>
                                     <div class="flex items-center gap-2">
                                         <h6
@@ -274,22 +274,22 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="py-6 px-4 flex-grow">
+                            <div class="py-6 px-4 grow">
                                 <p
-                                    class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-800">
+                                    class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal text-gray-800!">
                                     Rob has been a pleasure to work with. He is both helpful, friendly and an expert in his field. I would recommend his expertise to any colleague or professional, seeking to hire a web developer.
                                 </p>
                             </div>
                             <div class="p-6 flex justify-between items-center gap-2">
                                 <div class="flex items-center gap-2">
                                     <h6
-                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit !text-gray-500">
+                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit text-gray-500!">
                                         See on
                                     </h6>
                                     <x-ri-linkedin-fill class="h-5 w-5 text-blue-500" />
                                 </div>
                                 <p
-                                    class="block antialiased font-sans text-sm leading-normal text-inherit font-medium !text-gray-500">
+                                    class="block antialiased font-sans text-sm leading-normal text-inherit font-medium text-gray-500!">
                                     July 21st, 2009
                                 </p>
                             </div>

@@ -1,36 +1,36 @@
 <footer class="mt-10 p-10 pb-16 md:pt-20">
     <div class="container mx-auto flex max-w-6xl flex-col">
-        <div class="flex w-full flex-col !items-center justify-between gap-4 md:flex-row">
+        <div class="flex w-full flex-col items-center! justify-between gap-4 md:flex-row">
             <div class="flex flex-col">
                 <h6
-                    class="mb-3 block !text-left font-sans text-base font-semibold leading-relaxed tracking-normal text-inherit antialiased">
+                    class="mb-3 block text-left! font-sans text-base font-semibold leading-relaxed tracking-normal text-inherit antialiased">
                     RSC Media
                 </h6>
                 <div class="flex flex-wrap items-center gap-5">
                     <ul class="">
                         <li>
                             <a href="/"
-                                class="block font-sans text-base font-normal leading-relaxed !text-gray-700 antialiased transition-colors hover:!text-gray-700">Home</a>
+                                class="block font-sans text-base font-normal leading-relaxed text-gray-700! antialiased transition-colors hover:text-gray-700!">Home</a>
                         </li>
                     </ul>
                     <ul class="">
                         <li>
                             <a href="/about"
-                                class="block font-sans text-base font-normal leading-relaxed !text-gray-700 antialiased transition-colors hover:!text-gray-700">About
+                                class="block font-sans text-base font-normal leading-relaxed text-gray-700! antialiased transition-colors hover:text-gray-700!">About
                             </a>
                         </li>
                     </ul>
                     <ul class="">
                         <li>
                             <a href="/services"
-                                class="block font-sans text-base font-normal leading-relaxed !text-gray-700 antialiased transition-colors hover:!text-gray-700">Services</a>
+                                class="block font-sans text-base font-normal leading-relaxed text-gray-700! antialiased transition-colors hover:text-gray-700!">Services</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="flex flex-col items-end">
                 <h6
-                    class="mb-4 block w-full text-left font-sans text-base font-semibold leading-relaxed tracking-normal text-inherit antialiased md:!text-right lg:w-7/12">
+                    class="mb-4 block w-full text-left font-sans text-base font-semibold leading-relaxed tracking-normal text-inherit antialiased md:text-right! lg:w-7/12">
                     Success is not final, failure is not fatal: It is the courage to continue that counts
                 </h6>
                 <div class="flex w-full gap-2 sm:w-fit">
@@ -57,7 +57,7 @@
         </div>
         <div>
             <p
-                class="ray-900 mt-3 block text-left font-sans !text-sm font-normal leading-relaxed text-gray-700 antialiased lg:mt-0">
+                class="ray-900 mt-3 block text-left font-sans text-sm! font-normal leading-relaxed text-gray-700 antialiased lg:mt-0">
                 All rights reserved. &copy;
                 <!-- -->{{date('Y')}}
                 <!-- -->

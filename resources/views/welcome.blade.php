@@ -8,9 +8,9 @@
         </video>
         <a href="https://www.pexels.com/video/people-in-a-meeting-3255275/" class="absolute bottom-2 right-2 text-gray-700 text-xs">Video by fauxels</a></span>
         <div class="container py-8 mx-auto flex flex-col justify-center lg:h-full lg:min-h-screen w-full grid-cols-1 items-center lg:grid-cols-2 relative z-10">
-            <div class="p-8 row-start-2 lg:row-auto  bg-gradient-to-r from-white to-transparent rounded-l-lg">
+            <div class="p-8 row-start-2 lg:row-auto  bg-linear-to-r from-white to-transparent rounded-l-lg">
                 <h1
-                    class="mb-4 block text-xl md:text-3xl font-semibold !leading-tight tracking-normal text-blue-gray-900 antialiased lg:text-5xl font-display">
+                    class="mb-4 block text-xl md:text-3xl font-semibold leading-tight! tracking-normal text-blue-gray-900 antialiased lg:text-5xl font-display">
                     <span>Let's Build Your Website</span> <br /> <span class="text-5xl md:text-6xl lg:text-8xl font-bold">Together</span>
                 </h1>
                 <p class="block font-sans text-md md:text-xl font-normal leading-relaxed text-inherit text-blue-gray-900 antialiased md:pr-16 xl:pr-28 max-w-xl">
@@ -32,17 +32,17 @@
     <div class="container mx-auto">
         <div class="mb-12 text-center">
             <h2
-                class="mb-4 block font-sans text-4xl font-semibold !leading-snug tracking-normal text-blue-gray-900 antialiased lg:text-5xl">
+                class="mb-4 block font-sans text-4xl font-semibold leading-snug! tracking-normal text-blue-gray-900 antialiased lg:text-5xl">
                 Lets get you running!
             </h2>
-            <p class="mx-auto block font-sans text-xl font-normal leading-relaxed text-inherit !text-gray-500 antialiased lg:w-3/5">
+            <p class="mx-auto block font-sans text-xl font-normal leading-relaxed text-inherit text-gray-500! antialiased lg:w-3/5">
                 We offer expert consultation to enhance your business's online presence across web and social media platforms. 
                 Our services include addressing website and web technology challenges, as well as crafting customized management software tailored to efficiently track and meet your business needs.
             </p>
         </div>
-        <div class="mx-auto lg:max-w-screen-lg lg:px-20" x-data="{show: 1}">
+        <div class="mx-auto lg:max-w-(--breakpoint-lg) lg:px-20" x-data="{show: 1}">
             <h2
-                class="mt-8 block font-sans text-3xl font-semibold !leading-snug tracking-normal text-blue-gray-900 antialiased lg:text-4xl">
+                class="mt-8 block font-sans text-3xl font-semibold leading-snug! tracking-normal text-blue-gray-900 antialiased lg:text-4xl">
                 Frequently asked questions
             </h2>
             <div class="relative block w-full">
@@ -176,18 +176,18 @@
 <section class="py-28 px-10 bg-gray-100">
     <div class="container mx-auto mb-12 px-6">
         <h2
-            class="mb-3 block font-sans !text-3xl font-bold leading-[1.3] tracking-normal text-blue-gray-900 antialiased lg:!text-4xl">
+            class="mb-3 block font-sans text-3xl! font-bold leading-[1.3] tracking-normal text-blue-gray-900 antialiased lg:text-4xl!">
             Unlock the Full Potential of Your Business
         </h2>
         <div class="flex flex-wrap items-center justify-between gap-6">
             <p
-                class="block w-full font-sans text-base font-normal leading-relaxed text-inherit !text-gray-500 antialiased lg:w-6/12">
+                class="block w-full font-sans text-base font-normal leading-relaxed text-inherit text-gray-500! antialiased lg:w-6/12">
                 We understand that small and medium-sized businesses face unique challenges. That's why our tailored
                 data and app solutions are meticulously crafted to empower your business in countless ways. By
                 choosing our services, you can:
             </p>
             <a href="mailto:info@rscmedia.co.uk"
-                class="select-none rounded-lg bg-gradient-to-tr bg-accent1 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                class="select-none rounded-lg bg-linear-to-tr bg-accent1 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 data-ripple-light="true">
                 contact us
             </a>
@@ -207,7 +207,7 @@
                     Enhance Efficiency
                 </h5>
                 <p
-                    class="block font-sans text-sm font-normal leading-normal text-inherit !text-gray-500 antialiased">
+                    class="block font-sans text-sm font-normal leading-normal text-inherit text-gray-500! antialiased">
                     Our solutions streamline complex tasks, enhance productivity, and save you invaluable time. This
                     efficiency allows you to redirect your focus and resources towards what truly matters—growing
                     your business and serving your customers.
@@ -226,7 +226,7 @@
                     Customization to Your Needs
                 </h5>
                 <p
-                    class="block font-sans text-sm font-normal leading-normal text-inherit !text-gray-500 antialiased">
+                    class="block font-sans text-sm font-normal leading-normal text-inherit text-gray-500! antialiased">
                     No two businesses are identical, and we believe your solutions shouldn't be either. We offer a
                     highly customizable approach, ensuring that our applications fit your unique requirements like a
                     glove. This tailored fit means you can optimize operations while staying true to your business's
@@ -246,7 +246,7 @@
                     Data-Driven Insights
                 </h5>
                 <p
-                    class="block font-sans text-sm font-normal leading-normal text-inherit !text-gray-500 antialiased">
+                    class="block font-sans text-sm font-normal leading-normal text-inherit text-gray-500! antialiased">
                     In today's data-centric world, gaining insights is paramount. Our solutions provide you with
                     valuable data-driven insights, allowing you to make informed decisions, seize opportunities, and
                     adapt swiftly to evolving market trends. This data empowers you to stay ahead of the curve and
@@ -266,7 +266,7 @@
                     Scalability for Growth
                 </h5>
                 <p
-                    class="block font-sans text-sm font-normal leading-normal text-inherit !text-gray-500 antialiased">
+                    class="block font-sans text-sm font-normal leading-normal text-inherit text-gray-500! antialiased">
                     We understand that your business is a dynamic entity. Our solutions are built with scalability
                     in mind. Whether you're looking to expand, diversify, or face market fluctuations, our
                     applications can evolve with you, ensuring you're always prepared for the future.
@@ -285,7 +285,7 @@
                     Ongoing Support and Optimization
                 </h5>
                 <p
-                    class="block font-sans text-sm font-normal leading-normal text-inherit !text-gray-500 antialiased">
+                    class="block font-sans text-sm font-normal leading-normal text-inherit text-gray-500! antialiased">
                     Your success is our priority. Our dedicated team is committed to providing continuous support,
                     keeping your solutions up-to-date, secure, and optimized. We're not just here for the setup;
                     we're here for the long run, assisting you in any way we can.
@@ -304,7 +304,7 @@
                     Maintain a Competitive Edge
                 </h5>
                 <p
-                    class="block font-sans text-sm font-normal leading-normal text-inherit !text-gray-500 antialiased">
+                    class="block font-sans text-sm font-normal leading-normal text-inherit text-gray-500! antialiased">
                     The business landscape is ever-changing. With our innovative solutions, you're not just keeping
                     pace; you're staying one step ahead. We offer cutting-edge technology that helps you remain a
                     leader in your industry, no matter how fierce the competition gets.
