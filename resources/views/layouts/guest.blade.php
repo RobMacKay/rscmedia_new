@@ -45,7 +45,7 @@
         <meta name="twitter:image" content="https://rscmedia.co.uk/assets/images/facebook-cover.jpg">
 
         <!-- Styles -->
-        @livewireStyles
+        
     </head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H8FM5GTR75"></script>
@@ -62,6 +62,6 @@
         </div>
         <x-footer />
         @include('whatsappbutton')
-        @livewireScripts
+        
     </body>
 </html>
