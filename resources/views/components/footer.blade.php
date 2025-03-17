@@ -29,10 +29,7 @@
                 </div>
             </div>
             <div class="flex flex-col items-end">
-                <h6
-                    class="mb-4 block w-full text-left font-sans text-base font-semibold leading-relaxed tracking-normal text-inherit antialiased md:text-right! lg:w-7/12">
-                    Success is not final, failure is not fatal: It is the courage to continue that counts
-                </h6>
+                <a href="https://www.digitalocean.com/?refcode=1a442bcb3835&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
                 <div class="flex w-full gap-2 sm:w-fit">
                     <button
                         class="relative h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-primary/10 active:bg-primary/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
