@@ -10,6 +10,10 @@ Route::get('/welcome-to-rsc-media', function () {
     return view('web-welcome');
 })->name('landing-page');
 
+Route::get('/developer-backup', function () {
+    return view('web-retainer');
+})->name('web-retainer');
+
 Route::get('/services', function(){
     return view('services');
 });
