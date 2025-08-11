@@ -60,7 +60,7 @@
                     <li class="flex gap-2"><x-ri-check-line class="h-5 w-5 text-green-600"/> Actionable recommendations list</li>
                 </ul>
                 <div class="mt-8">
-                    <a href="#contact" class="inline-flex items-center justify-center rounded-xl bg-green-600 px-6 py-3 font-semibold text-white hover:bg-green-700">Book Your Audit</a>
+                    <a href="https://square.link/u/3DXWEOAL" class="inline-flex items-center justify-center rounded-xl bg-green-600 px-6 py-3 font-semibold text-white hover:bg-green-700">Book Your Audit</a>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
                         <li class="flex gap-2"><x-ri-check-line class="h-5 w-5 text-green-600"/> Minor content/bug fixes</li>
                         <li class="flex gap-2"><x-ri-check-line class="h-5 w-5 text-green-600"/> 1 business‑day response</li>
                     </ul>
-                    <a href="#contact" class="mt-6 inline-flex w-full justify-center rounded-xl bg-green-600 px-4 py-3 font-semibold text-white hover:bg-green-700">Start Starter</a>
+                    <a href="https://square.link/u/JSBSy3Ju" class="mt-6 inline-flex w-full justify-center rounded-xl bg-green-600 px-4 py-3 font-semibold text-white hover:bg-green-700">Start Starter</a>
                 </div>
                 <div class="relative p-6 bg-white border-2 border-green-600 rounded-2xl shadow-md">
                     <p class="absolute -top-3 right-4 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">Most popular</p>
@@ -96,7 +96,7 @@
                         <li class="flex gap-2"><x-ri-check-line class="h-5 w-5 text-green-600"/> Performance & security tuning</li>
                         <li class="flex gap-2"><x-ri-check-line class="h-5 w-5 text-green-600"/> Monthly recommendations report</li>
                     </ul>
-                    <a href="#contact" class="mt-6 inline-flex w-full justify-center rounded-xl bg-green-600 px-4 py-3 font-semibold text-white hover:bg-green-700">Start Pro</a>
+                    <a href="https://square.link/u/zVKdhzJA" class="mt-6 inline-flex w-full justify-center rounded-xl bg-green-600 px-4 py-3 font-semibold text-white hover:bg-green-700">Start Pro</a>
                 </div>
             </div>
             <p class="mt-6 text-center text-xs text-blue-gray-500">Hours roll over one month. Larger projects quoted separately.</p>
