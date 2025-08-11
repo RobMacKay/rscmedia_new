@@ -72,7 +72,7 @@
                 <h2 class="font-display text-3xl text-blue-gray-900">Simple pricing options</h2>
                 <p class="mt-3 text-blue-gray-700">No lock‑in. Upgrade or cancel anytime.</p>
             </div>
-            <div class="mt-10 grid sm:grid-cols-3 gap-8 lg:max-w-6xl lg:mx-auto">
+            <div class="mt-10 grid sm:grid-cols-2 gap-8 lg:max-w-6xl lg:mx-auto">
                 <div class="p-6 bg-white border border-blue-gray-100 rounded-2xl shadow-sm">
                     <h3 class="text-lg font-semibold text-blue-gray-900">Starter</h3>
                     <p class="mt-1 text-sm text-blue-gray-600">Best for small sites</p>
