@@ -98,11 +98,11 @@
                         </li>
                     </ul>
                 </div>
-                <div class="flex justify-center mt-6">
-                    <a href="/developer-backup" class="px-4 py-2 rounded bg-green-600 text-white font-bold">Call In the Backup Now!</a>
-                </div>
 
             </section>
+            <div class="flex justify-center mt-6">
+                <a href="/developer-backup" class="px-4 py-2 rounded bg-green-600 text-white font-bold">Call In the Backup Now!</a>
+            </div>
 
             <section class="px-4 py-6 my-4">
                 <div class="px-4">
