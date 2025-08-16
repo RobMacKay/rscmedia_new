@@ -45,7 +45,7 @@
                     var i = 0;
                     var txt = '{{$txt}}';
                     var speed = 50;
-                    
+
                     function typeWriter() {
                       if (i < txt.length) {
                         document.getElementById("type").innerHTML += txt.charAt(i);
@@ -56,7 +56,7 @@
                     onload = typeWriter();
                 </script>
 
-                
+
 
             </section>
 
@@ -91,16 +91,16 @@
                         </li>
                         <li class="flex items-center gap-2 justify-center">
                             <x-ri-arrow-right-double-fill class="h-6 text-green-700"/>
-                            <span>SEO</span> 
+                            <span>SEO</span>
                             <x-ri-arrow-left-double-fill class="h-6 text-green-700"/>
                         </li>
                     </ul>
                 </div>
-                
+
             </section>
 
             <section class="px-4 py-6 my-4">
-                <div ckass="px-4">
+                <div class="px-4">
                     <h2 class="text-2xl font-bold px-4 my-8">Our Specialities</h2>
                     <div class="flex justify-center items-center flex-wrap gap-4">
                         <x-si-laravel class="text-white bg-linear-to-br from-primary-500 to-primary-300 h-20 p-2 border border-primary-100 rounded-md"/>
@@ -110,7 +110,7 @@
                         <x-si-mysql class="text-white bg-primary-500 h-20 p-2 border rounded-md"/>
                         <x-si-livewire class="text-white bg-primary-500 h-20 p-2 border rounded-md"/>
                         <x-si-tailwindcss class="text-white bg-primary-500 h-20 p-2 border rounded-md"/>
-                        <x-si-css3 class="text-white bg-primary-500 h-20 p-2 border rounded-md"/>
+                        <x-si-css class="text-white bg-primary-500 h-20 p-2 border rounded-md"/>
                         <x-si-html5 class="text-white bg-primary-500 h-20 p-2 border rounded-md"/>
                     </div>
                 </div>
@@ -127,10 +127,10 @@
                     </h2>
                     <p
                         class="block antialiased font-sans text-lg lg:text-xl font-normal leading-loose text-inherit max-w-3xl text-gray-800! mb-10 lg:mb-20 text-balance">
-                        Find out what people have been saying about us... 
+                        Find out what people have been saying about us...
                     </p>
 
-                    
+
 
                     <div class="grid gap-8 grid-cols-1 lg:grid-cols-2">
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
@@ -253,7 +253,7 @@
                                 </p>
                             </div>
                         </div>
-                            
+
                         <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                             <div
                                 class="relative bg-clip-border mt-4! mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex gap-3 items-center">

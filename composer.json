@@ -8,7 +8,7 @@
         "php": "^8.3",
         "andreiio/blade-remix-icon": "^3.3",
         "blade-ui-kit/blade-ui-kit": "^0.7.0",
-        "codeat3/blade-simple-icons": "^7.0",
+        "codeat3/blade-simple-icons": "^7.9",
         "filament/filament": "^3.2",
         "laravel/framework": "^12.0",
         "laravel/jetstream": "^5.0",
