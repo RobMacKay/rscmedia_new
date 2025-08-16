@@ -56,7 +56,7 @@
                     onload = typeWriter();
                 </script>
                 <p class="text-center pt-6 font-bold"> Or... </p>
-                <div class="flex justify-center ">
+                <div class="flex justify-center mt-6">
                     <a href="/developer-backup" class="px-4 py-2 rounded bg-green-600 text-white font-bold">Call In the Backup Now!</a>
                 </div>
 
@@ -97,6 +97,9 @@
                             <x-ri-arrow-left-double-fill class="h-6 text-green-700"/>
                         </li>
                     </ul>
+                </div>
+                <div class="flex justify-center mt-6">
+                    <a href="/developer-backup" class="px-4 py-2 rounded bg-green-600 text-white font-bold">Call In the Backup Now!</a>
                 </div>
 
             </section>
@@ -299,6 +302,9 @@
                     </div>
                 </div>
             </section>
+            <div class="flex justify-center mt-6">
+                <a href="/developer-backup" class="px-4 py-2 rounded bg-green-600 text-white font-bold">Call In the Backup Now!</a>
+            </div>
 
         </div>
     @livewireScripts
