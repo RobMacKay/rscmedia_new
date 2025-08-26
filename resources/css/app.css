@@ -18,6 +18,27 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
   }
+
+    .gradient-orange {
+        background-size: 200% 200%;
+        background-position: 0% 0%;
+        background-image:
+            radial-gradient(75% 75% at 20% 26%, #1f3d4c 0%, #5c8a99 100%),
+            radial-gradient(75% 75% at 72% 72%, #2d5566 0%, #a3c7d3 100%);
+        animation: gradientMove 30s ease-in-out infinite alternate;
+    }
+
+    @keyframes gradientMove {
+        0% {
+            background-position: 0% 0%, 100% 100%;
+        }
+        50% {
+            background-position: 50% 50%, 50% 50%;
+        }
+        100% {
+            background-position: 100% 100%, 0% 0%;
+        }
+    }
 }
 
 [x-cloak] {
