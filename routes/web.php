@@ -14,6 +14,10 @@ Route::get('/developer-backup', function () {
     return view('web-retainer');
 })->name('web-retainer');
 
+Route::get('/puffin-seo', function () {
+    return view('puffin-seo');
+})->name('puffin-seo');
+
 Route::get('/services', function(){
     return view('services');
 });
