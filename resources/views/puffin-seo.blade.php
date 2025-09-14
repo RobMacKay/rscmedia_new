@@ -117,7 +117,7 @@
                 <div
                     class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none"
                 >
-                    <img src="/img/icons/meta.svg" alt="meta tags" class="h-12 w-12" />
+                    <img src="{!! asset('assets/images/puffin-seo/metadata.svg') !!}" alt="meta tags" class="h-12 w-12" />
                     <h5
                         class="block antialiased tracking-normal font-sans text-xl leading-snug text-blue-gray-900 my-4 font-bold"
                     >
@@ -129,11 +129,7 @@
                         Easily set titles and descriptions for every page or post. Clean,
                         straightforward controls without the confusing extra settings.
                     </p>
-                    <img
-                        src="/img/icons/sitemap.svg"
-                        alt="sitemap"
-                        class="mt-10 h-12 w-12"
-                    />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="mt-10 h-12 w-12" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M256 128C256 110.3 270.3 96 288 96L352 96C369.7 96 384 110.3 384 128L384 192C384 209.7 369.7 224 352 224L344 224L344 288L464 288C503.8 288 536 320.2 536 360L536 416L544 416C561.7 416 576 430.3 576 448L576 512C576 529.7 561.7 544 544 544L480 544C462.3 544 448 529.7 448 512L448 448C448 430.3 462.3 416 480 416L488 416L488 360C488 346.7 477.3 336 464 336L344 336L344 416L352 416C369.7 416 384 430.3 384 448L384 512C384 529.7 369.7 544 352 544L288 544C270.3 544 256 529.7 256 512L256 448C256 430.3 270.3 416 288 416L296 416L296 336L176 336C162.7 336 152 346.7 152 360L152 416L160 416C177.7 416 192 430.3 192 448L192 512C192 529.7 177.7 544 160 544L96 544C78.3 544 64 529.7 64 512L64 448C64 430.3 78.3 416 96 416L104 416L104 360C104 320.2 136.2 288 176 288L296 288L296 224L288 224C270.3 224 256 209.7 256 192L256 128z"/></svg>
                     <h5
                         class="block antialiased tracking-normal font-sans text-xl leading-snug text-blue-gray-900 my-4 font-bold"
                     >
@@ -146,28 +142,28 @@
                         automatically as you publish new content.
                     </p>
                 </div>
-                <div class="!p-0">
+                <div class="!p-0 h-full">
                     <img
-                        src="/image/iphone-with-logos.svg"
+                        src="{!! asset('assets/images/puffin-seo/screenshot-1.png') !!}"
                         alt="puffinseo-dashboard"
-                        class="h-full w-full object-cover object-bottom"
+                        class="h-full w-full object-cover object-top-left"
                     />
                 </div>
             </div>
             <div
                 class="relative flex-col bg-clip-border rounded-xl bg-white text-gray-700 px-6 lg:pt-10 !grid grid-flow-dense lg:grid-cols-2 grid-cols-1 gap-y-10 lg:place-items-center bg-gray-100/50"
             >
-                <div class="!p-0 row-start-2 lg:row-auto">
+                <div class="!p-0 row-start-2 lg:row-auto h-full">
                     <img
-                        src="/image/laptop-with-avatar.svg"
+                        src="{!! asset('assets/images/puffin-seo/screenshot-3.png') !!}"
                         alt="schema-settings"
-                        class="h-full w-full object-cover object-bottom"
+                        class="h-full w-full object-cover object-top-left"
                     />
                 </div>
                 <div
                     class="relative bg-clip-border !mt-4 mx-4 rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none"
                 >
-                    <img src="/img/icons/og.svg" alt="open graph" class="h-12 w-12" />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12"  viewBox="0 0 512 512"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M307.8 18.4c-12 5-19.8 16.6-19.8 29.6l0 80-112 0c-97.2 0-176 78.8-176 176 0 113.3 81.5 163.9 100.2 174.1 2.5 1.4 5.3 1.9 8.1 1.9 10.9 0 19.7-8.9 19.7-19.7 0-7.5-4.3-14.4-9.8-19.5-9.4-8.8-22.2-26.4-22.2-56.7 0-53 43-96 96-96l96 0 0 80c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-9.2-9.2-22.9-11.9-34.9-6.9z"/></svg>
                     <h5
                         class="block antialiased tracking-normal font-sans text-xl leading-snug text-blue-gray-900 my-4 font-bold"
                     >
@@ -180,7 +176,7 @@
                         when shared on social platforms.
                     </p>
                     <img
-                        src="/img/icons/schema.svg"
+                        src="{!! asset('assets/images/puffin-seo/data-structured.svg') !!}"
                         alt="schema"
                         class="mt-10 h-12 w-12"
                     />
